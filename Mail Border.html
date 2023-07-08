@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<head>
+    <title>
+        Mail Border
+    </title>
+    <style>
+        .Section {
+            width: 350px;
+            margin: 0 auto;
+            position: relative;
+            display: block;
+            top: 100px;
+            background-color: #fdfdfd;
+            padding: 10px;
+        }
+        
+        .Section h2,
+        .Section p {
+            color: black;
+        }
+        
+        .Section-Border {
+            border: 1rem solid;
+            border-image: repeating-linear-gradient(45deg, transparent, transparent 5px, rgb(53, 87, 236) 16px, rgb(53, 87, 236) 26px, transparent 26px, transparent 31px, rgb(189, 86, 86) 41px, rgb(189, 86, 86) 51px, transparent 41px, transparent 46px)20/1rem;
+            border-image-width: 1rem;
+        }
+    </style>
+</head>
+<html>
+<div class="Section Section-Border">
+    <h2>Mail Border</h2>
+    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+</div>
+
+</html>
